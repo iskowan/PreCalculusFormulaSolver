@@ -101,15 +101,57 @@
             </objects>
             <point key="canvasLocation" x="2763" y="218"/>
         </scene>
-        <!--View Controller-->
+        <!--Sum and Difference-->
         <scene sceneID="4eM-WC-6hN">
             <objects>
-                <viewController id="LcR-wq-CF8" sceneMemberID="viewController">
+                <viewController title="Sum and Difference" id="LcR-wq-CF8" customClass="SumAndDifferenceViewController" customModule="PreCalculusFormulaSolver" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vLa-Wt-3J8">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="5nE-Ay-vb9">
+                                <rect key="frame" x="20" y="163.66666666666663" width="353" height="456"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z6T-FN-HsU">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="sin (a + b)"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YCE-y3-mtH">
+                                        <rect key="frame" x="0.0" y="84.333333333333343" width="353" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="sin (a - b)"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="llG-uL-crj">
+                                        <rect key="frame" x="0.0" y="168.66666666666666" width="353" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="cos (a + b)"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjZ-OP-Ar6">
+                                        <rect key="frame" x="0.0" y="253.00000000000003" width="353" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="cos (a - b)"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FcQ-08-wWo">
+                                        <rect key="frame" x="0.0" y="337.33333333333337" width="353" height="34.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="tan (a + b)"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0J-yH-4CA">
+                                        <rect key="frame" x="0.0" y="421.66666666666674" width="353" height="34.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="tan (a - b)"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="aPV-mu-F76"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5nE-Ay-vb9" firstAttribute="leading" secondItem="aPV-mu-F76" secondAttribute="leading" constant="20" id="Pxu-Wb-9fz"/>
+                            <constraint firstItem="5nE-Ay-vb9" firstAttribute="centerY" secondItem="vLa-Wt-3J8" secondAttribute="centerY" id="iIT-3q-Qnv"/>
+                            <constraint firstItem="aPV-mu-F76" firstAttribute="trailing" secondItem="5nE-Ay-vb9" secondAttribute="trailing" constant="20" id="umw-Fu-33K"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="RJ6-jL-oNt"/>
                 </viewController>
@@ -136,37 +178,116 @@
             </objects>
             <point key="canvasLocation" x="1903" y="218"/>
         </scene>
-        <!--View Controller-->
+        <!--Multiple Angle Identities-->
         <scene sceneID="NLE-jI-yL4">
             <objects>
-                <viewController id="PJ2-ZB-wTc" sceneMemberID="viewController">
+                <viewController title="Multiple Angle Identities" id="PJ2-ZB-wTc" customClass="MultipleIdentitiesViewController" customModule="PreCalculusFormulaSolver" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hej-4n-6CM">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="8Yk-Mh-C57">
+                                <rect key="frame" x="20" y="240" width="353" height="303"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jzx-Q5-gSI">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="cos 2x"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhG-vT-df9">
+                                        <rect key="frame" x="0.0" y="134.33333333333331" width="353" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="sin 2x"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hko-qj-Kw5">
+                                        <rect key="frame" x="0.0" y="268.66666666666669" width="353" height="34.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="tan 2x"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="AuL-xl-5Hg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="AuL-xl-5Hg" firstAttribute="trailing" secondItem="8Yk-Mh-C57" secondAttribute="trailing" constant="20" id="BRW-Ec-4nE"/>
+                            <constraint firstItem="8Yk-Mh-C57" firstAttribute="centerY" secondItem="hej-4n-6CM" secondAttribute="centerY" id="J9y-h3-Gq7"/>
+                            <constraint firstItem="8Yk-Mh-C57" firstAttribute="leading" secondItem="AuL-xl-5Hg" secondAttribute="leading" constant="20" id="hZH-zf-Vr8"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="n6A-5I-tpM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9q2-e0-F7z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3726" y="219"/>
+            <point key="canvasLocation" x="3726" y="218"/>
         </scene>
-        <!--View Controller-->
+        <!--Half Angle Identities-->
         <scene sceneID="uQE-W2-Ew8">
             <objects>
-                <viewController id="2xb-sz-89E" sceneMemberID="viewController">
+                <viewController title="Half Angle Identities" id="2xb-sz-89E" customClass="HalfIdentitiesViewController" customModule="PreCalculusFormulaSolver" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iYV-1C-InV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="3yE-Jn-BVT">
+                                <rect key="frame" x="20" y="240" width="353" height="303"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huO-fN-Td7">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="cos x/2"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oJ-Iv-g7T">
+                                        <rect key="frame" x="0.0" y="134.33333333333331" width="353" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="sin x/2"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNS-6A-rgq">
+                                        <rect key="frame" x="0.0" y="268.66666666666669" width="353" height="34.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="tan x/2"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="353" id="Baz-bx-aNk"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="c1v-BT-hhE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="c1v-BT-hhE" firstAttribute="trailing" secondItem="3yE-Jn-BVT" secondAttribute="trailing" constant="20" id="VVK-Ka-VW6"/>
+                            <constraint firstItem="3yE-Jn-BVT" firstAttribute="centerY" secondItem="iYV-1C-InV" secondAttribute="centerY" id="bFJ-Ma-0kw"/>
+                            <constraint firstItem="3yE-Jn-BVT" firstAttribute="leading" secondItem="c1v-BT-hhE" secondAttribute="leading" constant="20" id="rLz-53-Ilg"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gdx-Np-aGo"/>
+                    <connections>
+                        <outlet property="halfButton1" destination="0oJ-Iv-g7T" id="VQn-L9-Vn1"/>
+                        <outlet property="halfButton2" destination="0oJ-Iv-g7T" id="2nU-tl-32M"/>
+                        <outlet property="halfButton3" destination="JNS-6A-rgq" id="GOi-wq-gM5"/>
+                        <outlet property="halfStackView" destination="3yE-Jn-BVT" id="AUe-zT-LeV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6fY-aN-m0W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3726" y="937"/>
+            <point key="canvasLocation" x="3726" y="901"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="F45-bq-LwW">
+            <objects>
+                <viewController id="TzQ-SJ-mOO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pvz-Or-yo2">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="TiV-LF-tRK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JMP-Ot-jMS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0r0-vA-lM8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4839" y="218"/>
         </scene>
     </scenes>
     <resources>

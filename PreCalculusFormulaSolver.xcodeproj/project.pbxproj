@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7167AA302A0407C800A89F7F /* SumAndDifferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167AA2F2A0407C800A89F7F /* SumAndDifferenceViewController.swift */; };
+		7167AA322A0407EA00A89F7F /* MultipleIdentitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167AA312A0407EA00A89F7F /* MultipleIdentitiesViewController.swift */; };
+		7167AA342A04080000A89F7F /* HalfIdentitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167AA332A04080000A89F7F /* HalfIdentitiesViewController.swift */; };
 		7171285D2A0286BB00B13F3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7171285C2A0286BB00B13F3A /* AppDelegate.swift */; };
 		7171285F2A0286BB00B13F3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7171285E2A0286BB00B13F3A /* SceneDelegate.swift */; };
 		717128612A0286BB00B13F3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717128602A0286BB00B13F3A /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7167AA2F2A0407C800A89F7F /* SumAndDifferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumAndDifferenceViewController.swift; sourceTree = "<group>"; };
+		7167AA312A0407EA00A89F7F /* MultipleIdentitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleIdentitiesViewController.swift; sourceTree = "<group>"; };
+		7167AA332A04080000A89F7F /* HalfIdentitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfIdentitiesViewController.swift; sourceTree = "<group>"; };
 		717128592A0286BB00B13F3A /* PreCalculusFormulaSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreCalculusFormulaSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7171285C2A0286BB00B13F3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7171285E2A0286BB00B13F3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +65,9 @@
 				7171285C2A0286BB00B13F3A /* AppDelegate.swift */,
 				7171285E2A0286BB00B13F3A /* SceneDelegate.swift */,
 				717128602A0286BB00B13F3A /* ViewController.swift */,
+				7167AA2F2A0407C800A89F7F /* SumAndDifferenceViewController.swift */,
+				7167AA312A0407EA00A89F7F /* MultipleIdentitiesViewController.swift */,
+				7167AA332A04080000A89F7F /* HalfIdentitiesViewController.swift */,
 				717128622A0286BB00B13F3A /* Main.storyboard */,
 				717128652A0286BC00B13F3A /* Assets.xcassets */,
 				717128672A0286BC00B13F3A /* LaunchScreen.storyboard */,
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				717128612A0286BB00B13F3A /* ViewController.swift in Sources */,
+				7167AA342A04080000A89F7F /* HalfIdentitiesViewController.swift in Sources */,
+				7167AA302A0407C800A89F7F /* SumAndDifferenceViewController.swift in Sources */,
+				7167AA322A0407EA00A89F7F /* MultipleIdentitiesViewController.swift in Sources */,
 				7171285D2A0286BB00B13F3A /* AppDelegate.swift in Sources */,
 				7171285F2A0286BB00B13F3A /* SceneDelegate.swift in Sources */,
 			);
